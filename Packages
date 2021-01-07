@@ -1,0 +1,28 @@
+Package: ldddns
+Version: 0.0.27
+Architecture: amd64
+Maintainer: Arne Jørgensen <arne@arnested.dk>
+Installed-Size: 9640
+Depends: docker.io, libsystemd0
+Filename: ./ldddns_0.0.27_linux_amd64.deb
+Size: 3674166
+MD5sum: a39c88630dc44c405f382f1e823fbd8c
+SHA1: 731c30073bc3f482351a4489c4a6df2df9786fe6
+SHA256: 126dd5d3fe39f2a9d9521ffe8b43249a434254b27b7d2bad1235686413c3a89d
+Description: Local Docker Development DNS
+Vendor: Arne Jørgensen
+
+Package: ldddns
+Version: 0.0.27
+Architecture: i386
+Maintainer: Arne Jørgensen <arne@arnested.dk>
+Installed-Size: 8160
+Depends: docker.io, libsystemd0
+Filename: ./ldddns_0.0.27_linux_386.deb
+Size: 3477360
+MD5sum: 53615bbcf5c89c25cc925bde42f0dcc7
+SHA1: 8e65e1df95b2d12006b204a51843463fd62c5335
+SHA256: eb1d7495ed7e560436b0dcc2b2479b161457f859274186615177c9a6800f8367
+Description: Local Docker Development DNS
+Vendor: Arne Jørgensen
+
