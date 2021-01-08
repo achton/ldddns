@@ -19,7 +19,7 @@ https://my-fancy.local).</p>
 file from the <a href="https://github.com/arnested/ldddns/releases/latest">latest
 release</a> and open
 it or run:</p>
-<pre><code class="language-console">sudo dpkg -i <a href="https://github.com/arnested/ldddns/releases/latest/download/ldddns_0.0.41_linux_amd64.deb">ldddns_0.0.41_linux_amd64.deb</a>
+<pre><code class="language-console">sudo dpkg -i <a href="https://github.com/arnested/ldddns/releases/latest/download/ldddns_0.0.42_linux_amd64.deb">ldddns_0.0.42_linux_amd64.deb</a>
 </code></pre>
 <p>Or just run the following command which will download and install the
 latest package for you:</p>
@@ -35,7 +35,7 @@ will receive future updates to <code>ldddns</code> along with your other system
 updates.</p>
 <h2>Keeping an eye on things</h2>
 <p>You can get the status of the service by running:</p>
-<pre><code class="language-console">$ sudo systemctl status ldddns.service
+<pre><code class="language-console">sudo systemctl status ldddns.service
 ● ldddns.service - Local Docker Development DNS
      Loaded: loaded (/lib/systemd/system/ldddns.service; enabled; vendor preset: enabled)
      Active: active (running) since Fri 2021-01-08 09:29:46 CET; 44min ago
@@ -51,7 +51,7 @@ jan 08 09:29:46 pop-os systemd[1]: Started Local Docker Development DNS.
 jan 08 10:13:52 pop-os ldddns[87715]: added address for &quot;my-fancy.local&quot; pointing to &quot;172.19.0.3&quot;
 </code></pre>
 <p>Or follow the log with:</p>
-<pre><code class="language-console">$ sudo journalctl --follow --unit ldddns.service
+<pre><code class="language-console">sudo journalctl --follow --unit ldddns.service
 </code></pre>
 <h2>Bugs, thoughts, and comments</h2>
 <p>Bugs, thoughts, and comments are welcome.</p>

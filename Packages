@@ -1,42 +1,42 @@
 Package: ldddns
-Version: 0.0.41
+Version: 0.0.42
 Architecture: i386
 Maintainer: Arne Jørgensen <arne@arnested.dk>
 Installed-Size: 8160
 Depends: docker.io, libsystemd0
-Filename: ./ldddns_0.0.41_linux_386.deb
-Size: 3484982
-MD5sum: ffdc44c73575aac2d4b8eba6c62afad1
-SHA1: e235a3f6fb30938ddba55ee496c40187152b1ca7
-SHA256: a87cb46e8db180f4311e1a6cd0341376442a1a3014743b469eb2f12cb9c56119
+Filename: ./ldddns_0.0.42_linux_386.deb
+Size: 3484978
+MD5sum: a29be297deb8ff19d5abf17897f0a8d3
+SHA1: 941f29109a049a4c2b94ff03989b71df42ee562e
+SHA256: a35d56ac364a4afec0abcfd52ea22eff1ab8f345cb1e584a9035f142359b9cf1
 Description: Local Docker Development DNS
 Vendor: Arne Jørgensen
 
 Package: ldddns
-Version: 0.0.41
+Version: 0.0.42
 Architecture: arm64
 Maintainer: Arne Jørgensen <arne@arnested.dk>
 Installed-Size: 8960
 Depends: docker.io, libsystemd0
-Filename: ./ldddns_0.0.41_linux_arm64.deb
-Size: 3341140
-MD5sum: 0236c75dec25a25cbfbbe1f35bf05a5f
-SHA1: 3dcc40be80ef121e42b0d5e5e5ee1d1d3e886753
-SHA256: 7395e5c76d0a6747d833818146a63e3255596382d20a0ed93c76d37ec68c68eb
+Filename: ./ldddns_0.0.42_linux_arm64.deb
+Size: 3341126
+MD5sum: fa41456a34ebc0b13ff084635483bbf7
+SHA1: 48ce6ec61aa040b3346d3a74a818e4c9078645d4
+SHA256: a959a3159630a1a1489b510e847b5b7b565663245b257767f36ec4e6aec250a6
 Description: Local Docker Development DNS
 Vendor: Arne Jørgensen
 
 Package: ldddns
-Version: 0.0.41
+Version: 0.0.42
 Architecture: amd64
 Maintainer: Arne Jørgensen <arne@arnested.dk>
 Installed-Size: 9640
 Depends: docker.io, libsystemd0
-Filename: ./ldddns_0.0.41_linux_amd64.deb
-Size: 3681772
-MD5sum: b917e423dd327eaa4f3ac0063f2d6658
-SHA1: 480b43076808a4e5fc2d8649b1858bef546cf0d2
-SHA256: 708a3013cdebc1366e039d25b531e3695dc5ea89863c4a88cc21216f415d7fa4
+Filename: ./ldddns_0.0.42_linux_amd64.deb
+Size: 3681768
+MD5sum: 115ec68cf198a6ddf92e768fd8a5dad8
+SHA1: ff49943ffb954cbfcc23d3ce31ddc34f59e1441e
+SHA256: 11c317c9bfe3d120888ed0c54b30997e6c64209fa030a638fb680deff8b3e3d5
 Description: Local Docker Development DNS
 Vendor: Arne Jørgensen
 
