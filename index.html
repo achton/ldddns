@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <h1>Local Docker Development DNS</h1>
 <p>A systemd service that will monitor your Docker host and provide
-DNS names for containers with a <code>VIRTUAL_HOST</code> environment variable.</p>
+DNS names for containers based of the container name.</p>
+<p>If a <code>VIRTUAL_HOST</code> environment variable is present the DNS we will
+base the DNS of that instead.</p>
 <p>The service broadcasts the domain names using multicast DNS
 (a.k.a. mDNS, zeroconf, bounjour, avahi).</p>
 <p>A limitation of this is that domains name can only be on the <code>.local</code>
@@ -19,7 +21,7 @@ https://my-fancy.local).</p>
 file from the <a href="https://github.com/arnested/ldddns/releases/latest">latest
 release</a> and open
 it or run:</p>
-<pre><code class="language-console">sudo dpkg -i <a href="https://github.com/arnested/ldddns/releases/latest/download/ldddns_0.0.43_linux_amd64.deb">ldddns_0.0.43_linux_amd64.deb</a>
+<pre><code class="language-console">sudo dpkg -i <a href="https://github.com/arnested/ldddns/releases/latest/download/ldddns_0.0.44_linux_amd64.deb">ldddns_0.0.44_linux_amd64.deb</a>
 </code></pre>
 <p>Or just run the following command which will download and install the
 latest package for you:</p>
