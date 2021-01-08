@@ -1,42 +1,42 @@
 Package: ldddns
-Version: 0.0.37
+Version: 0.0.38
 Architecture: amd64
 Maintainer: Arne Jørgensen <arne@arnested.dk>
 Installed-Size: 9640
 Depends: docker.io, libsystemd0
-Filename: ./ldddns_0.0.37_linux_amd64.deb
-Size: 3681774
-MD5sum: 0399c1edacd16d3e2b59d665dcaba1f7
-SHA1: 310a70f7c89ecaec33d73cb1f3a503a62f97e9b1
-SHA256: cc9a5401e22896a4ab3c4af22841165fa1c31b20c1f16b26401a25f479267c2d
+Filename: ./ldddns_0.0.38_linux_amd64.deb
+Size: 3681768
+MD5sum: d7f3326198e9cba8f3d42c14594e8df7
+SHA1: 0d1771f0dea025b1bce29238234df7ec20af1e4e
+SHA256: ee85e94716ff7b8cca3b1bb62fa37db44b22019b464362770e307a8c1a3c98f6
 Description: Local Docker Development DNS
 Vendor: Arne Jørgensen
 
 Package: ldddns
-Version: 0.0.37
-Architecture: arm64
-Maintainer: Arne Jørgensen <arne@arnested.dk>
-Installed-Size: 8960
-Depends: docker.io, libsystemd0
-Filename: ./ldddns_0.0.37_linux_arm64.deb
-Size: 3341142
-MD5sum: f9af7f9580a3a699f43c6a57644e9d00
-SHA1: 71b7886deecac367765f50bf38b1830c95ce82bc
-SHA256: efe37cc3da8ab3ee40856773bf09cb8c6d7b8083c0f60131fe00a647ba06d76f
-Description: Local Docker Development DNS
-Vendor: Arne Jørgensen
-
-Package: ldddns
-Version: 0.0.37
+Version: 0.0.38
 Architecture: i386
 Maintainer: Arne Jørgensen <arne@arnested.dk>
 Installed-Size: 8160
 Depends: docker.io, libsystemd0
-Filename: ./ldddns_0.0.37_linux_386.deb
-Size: 3484990
-MD5sum: 0f8354d4cfa597dc4c559621eeb1af8a
-SHA1: 79c089e0c910d7e9c5fe115828f152445cb45b1d
-SHA256: 49f4a0ecda1aba44fd0fedbbb5e3aff228347785789b5473edef24b9fdd91ae1
+Filename: ./ldddns_0.0.38_linux_386.deb
+Size: 3484980
+MD5sum: bebdec0366ab75fc19dbb9f143ef9785
+SHA1: 0ffb80594707a2c07f66227196c9e299a1efecfa
+SHA256: 8ae6e6062bb5889c89339526a3b25fb3104ecc3cf4b165db3cedbd6df7c3c56c
+Description: Local Docker Development DNS
+Vendor: Arne Jørgensen
+
+Package: ldddns
+Version: 0.0.38
+Architecture: arm64
+Maintainer: Arne Jørgensen <arne@arnested.dk>
+Installed-Size: 8960
+Depends: docker.io, libsystemd0
+Filename: ./ldddns_0.0.38_linux_arm64.deb
+Size: 3341136
+MD5sum: e110d92eab3162df052002f439fde29e
+SHA1: 441d3282f2f8dde7b3ceb01f071cd3a18c2756aa
+SHA256: c284bc92323501a137453d93c98cb3358a51b07f504ab5e7e1ee0d3364a41817
 Description: Local Docker Development DNS
 Vendor: Arne Jørgensen
 

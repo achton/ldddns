@@ -2,7 +2,7 @@
 <h1>Local Docker Development DNS</h1>
 <p>A systemd service that will monitor your Docker host and provide
 DNS names for containers with a <code>VIRTUAL_HOST</code> environment variable.</p>
-<p>The domain names will be broadcast using multicast DNS.</p>
+<p>The service broadcasts the domain names using multicast DNS.</p>
 <p>A limitation of this is that domains name can only be on the <code>.local</code>
 TLD and only have one level below the TLD. A benefit is that you don't
 have change your DNS server or configure stuff i <code>/etc/resolv</code> or
@@ -14,13 +14,24 @@ up in <code>/etc/services</code>) the service will also broadcast the
 service/domain for service discovery (i.e. <code>_https._tcp.</code> for
 https://my-fancy.local).</p>
 <h2>Install</h2>
-<p>Download the <code>.deb</code> file and run:</p>
-<pre><code class="language-console">sudo dpkg -i <a href="https://github.com/arnested/ldddns/releases/latest/download/ldddns_0.0.37_linux_amd64.deb">ldddns_0.0.37_linux_amd64.deb</a>
+<p>For Pop!_OS, Ubuntu, Debian and the like, download the <code>.deb</code> package
+file from the <a href="https://github.com/arnested/ldddns/releases/latest">latest
+release</a> and open
+it or run:</p>
+<pre><code class="language-console">sudo dpkg -i <a href="https://github.com/arnested/ldddns/releases/latest/download/ldddns_0.0.38_linux_amd64.deb">ldddns_0.0.38_linux_amd64.deb</a>
 </code></pre>
 <p>Or just run the following command which will download and install the
 latest package for you:</p>
 <pre><code class="language-console">curl -fsSL https://ldddns.arnested.dk/install.sh | bash
 </code></pre>
+<p>For other distributions download the binary from the <a href="https://github.com/arnested/ldddns/releases/latest">latest
+release</a> and
+create a systemd service unit file yourself based on
+<a href="https://github.com/arnested/ldddns/blob/main/ldddns.service"><code>ldddns.service</code></a>.</p>
+<h3>Updates</h3>
+<p>When you install the package it will add an APT source list so you
+will receive future updates to <code>ldddns</code> along with your other system
+updates.</p>
 <style>
 body {
   font-family: system-ui, -apple-system;
