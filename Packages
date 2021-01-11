@@ -1,42 +1,42 @@
 Package: ldddns
-Version: 0.0.45
+Version: 0.0.46
 Architecture: i386
 Maintainer: Arne Jørgensen <arne@arnested.dk>
 Installed-Size: 8160
 Depends: docker.io, libsystemd0
-Filename: ./ldddns_0.0.45_linux_386.deb
-Size: 3485016
-MD5sum: abc00f3eb07c5b49c8ffa59d27c34a72
-SHA1: 05289dad8ad4bfd3878337c4422913fb375f9655
-SHA256: 75bda8bd7b7b692cfb1ef9b8771303ec5f9c2527adfc5dec716428b2c996ac03
+Filename: ./ldddns_0.0.46_linux_386.deb
+Size: 3485020
+MD5sum: 023acbd4b66b051f09fa2a69a23d4cec
+SHA1: d079dea4928c07dc7ffe5bf631d08a864d922b8c
+SHA256: 67bcd91d5761ed698b1abe2b5a4093361199b3e672d595d1cd6bdab2fcc765aa
 Description: Local Docker Development DNS
 Vendor: Arne Jørgensen
 
 Package: ldddns
-Version: 0.0.45
+Version: 0.0.46
 Architecture: amd64
 Maintainer: Arne Jørgensen <arne@arnested.dk>
 Installed-Size: 9640
 Depends: docker.io, libsystemd0
-Filename: ./ldddns_0.0.45_linux_amd64.deb
-Size: 3681922
-MD5sum: c348273a27b838d5b52f9ae70707302b
-SHA1: 2578d10a42e457b36cca326bd935e87774b5792e
-SHA256: fcdd1bcb1f853d611606cd6df0c422dc715f18e1bec09093b5ab372d88fa6ebf
+Filename: ./ldddns_0.0.46_linux_amd64.deb
+Size: 3681920
+MD5sum: 42e51bd725fcd892f203044207f2bae7
+SHA1: ff8495395f43a9bfb8595e4b9cc4b60d33374131
+SHA256: fbc4020a4622ae5ce45b4b899d6aa5090d2b67bc890bd0525800dc5ed342247b
 Description: Local Docker Development DNS
 Vendor: Arne Jørgensen
 
 Package: ldddns
-Version: 0.0.45
+Version: 0.0.46
 Architecture: arm64
 Maintainer: Arne Jørgensen <arne@arnested.dk>
 Installed-Size: 8960
 Depends: docker.io, libsystemd0
-Filename: ./ldddns_0.0.45_linux_arm64.deb
+Filename: ./ldddns_0.0.46_linux_arm64.deb
 Size: 3341164
-MD5sum: a79972a6f954359225333cb699b76e80
-SHA1: fcf17320fc0dc901b6db8b70872dee997471ea6c
-SHA256: f95f6ae9500da8d25068de54effd27411c99b3ad374b05d3d2be0f9d06ac3d42
+MD5sum: 8a273fa15fad90419c06f9d25e64a591
+SHA1: a96383af96dc5939be936040bb76fce86210c655
+SHA256: 399885c96d2888fce101cf82a51ab43bb90448a6ce8d67f0ec8917f6d33a6ced
 Description: Local Docker Development DNS
 Vendor: Arne Jørgensen
 
